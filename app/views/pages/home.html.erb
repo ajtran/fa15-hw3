@@ -1,0 +1,16 @@
+<h1> HOME SCREEEN &spades; </h1>
+
+<h2> users: </h2>
+<% @user.each do |u| %>
+  <p><%= u.username %> <%= u.email %> <%= u.age %></p>
+<% end %>
+
+<h3> todos: </h3>
+<% @todos.each do |t| %>
+  <p><%= t.task %> <%= t.finished %></p>
+<% end %>
+
+<h4> cats: </h4>
+<% @cat.each do |c| %>
+  <p><%= cat.name %></p>
+<% end %>
